@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Vue JS</title>
+    </head>
+    <body>
+        <!--<div id="app" v-html="message">
+           {{message}}
+        </div>
+		<div id="app">
+           <h1>{{message}}</h1>
+		   <h1 v-once v-html="message"></h1>
+        </div>-->
+		<style type="text/css">
+			.title{
+				color: green;
+			}
+		</style>
+		<div id="app">
+			<h1 v-bind:class="class_h1">{{message}}</h1>
+        </div>
+        <script src="vue.min.js"></script>
+        <script src="apps.js"></script>
+    </body>
+</html>

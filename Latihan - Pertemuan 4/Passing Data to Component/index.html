@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Component Dasar</title>
+		<style>
+			.card{
+				background: #efefef;
+				border: 1px solid #ddd;
+				margin-right: 5px;
+				padding: 5px;
+				width: 200px;
+				float: left;
+			}
+			h3{
+				min-height: 45px;
+			}
+		</style>
+    </head>
+    <body>        
+		<div id="app">
+			<book
+				title="C++ High Performance"
+				description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+				image="https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+			</book>
+		</div>
+        <script src="vue.min.js"></script>
+        <script src="apps.js"></script>		
+    </body>
+</html>
